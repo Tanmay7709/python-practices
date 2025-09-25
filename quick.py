@@ -292,3 +292,33 @@
 # string methods: 
 hello = "hElu"
 print(hello.capitalize())
+
+# for i in range(10):
+#     print(i + 1)
+
+# range goes like this
+# * stop  
+# * start, stop
+# * start, stop, step
+
+# x = [2, 4, 5, 6, 7, 8, 9]
+# for i in range(len(x)):
+#     print(x[i])
+
+# # dict
+# x = {2, 3, 5, 6, 7}         # this is dictionary and dict is the word which is used more frequently
+# y = {4, 6, 8, 4, 7, 3, 6, 4}
+# z = {"key" : 4, "key2" : 7}         # * it has "key" = value
+# for key in z:
+#     print("key : ", z[key])     # * it willl give both key and value
+
+# print(x)
+# print(set(y))       # set will remove all the duplicate elements
+# print(2 in x)
+# print(90 in y)      # this will check 
+
+
+def func(x , y):
+    print("running", x , y)
+
+func(4 , 6)
