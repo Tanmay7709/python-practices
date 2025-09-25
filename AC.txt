@@ -1,0 +1,105 @@
+chars : A to Z, a to Z
+integers = 0 - 9
+chars  - + * /  etc.
+
+rules for identifiers:  (variable names or names which are given to any particular function)
+1. identifiers can be a combination of uppercase and lowercase letters, digits or an underscore(_).
+so myVariable, variable_1, variable_for_print all are valid python identifiers
+2. an identifier cannot start with digit. so while variable1 is "valid", 1variable is "not valid"
+3. we cant use special symbols like !, @, %, $, etc in our identifiers
+4. identifiers can be of any length
+
+
+getting data types:     integers, string, float, boolean, None = "learn this None"
+name = "bob"
+print(type(name))
+
+output: <class 'str'>
+
+
+
+Reserved words:
+and                 else                in                  return
+as                  except              is                  True
+assert              finally             lambda              try
+break               false               nonlocal            with
+class               for                 None                while
+continue            from                not                 yield
+def                 global              or
+del                 if                  pass
+elif                import              raise
+
+
+python is a "case sensitive language" = A and a are different;
+
+
+
+# single line comment
+
+"""
+multiline comments i think im using triple " before and after
+"""
+
+
+
+
+types of operators:
+arithematic operators ( + , - , * , / , % , ** )
+relational / comparison operators ( == , != , > , < , >= , <= )
+assignment operator ( = , += , -= , *= , /= , %= , **= )
+logical operators ( not , and , or )
+
+** this is a power operator a ** b = a^b
+
+
+type conversion : 
+converting one data type of variable to another data type of variable
+
+
+escape sequence characters :
+\n = nextline
+\t = tabspace
+
+concatenation: joining two things together such as joining 2 strings together
+"hello" + "world" ---> "helloworld"
+
+length of str <-- here str is a variable for the example
+leng(str)
+
+slicing : 
+string = "red balloon"
+print(string[0:3])         
+if [ :3] it will automatically assume that the starting index is first "0"
+if [4: ] it will automatically assume that the 2nd index is last index 
+
+output : 
+red
+
+#! "negetive indexes" this is a concept original from python        (negetive indexes ONLY work in slices and nowhere else)
+str = "apple"
+
+ a  p  p  l  e
+-5 -4 -3 -2 -1 
+
+print(str[-5: -2])      output : app
+
+
+
+
+String functions: 
+str = "i am a coder"
+
+str.endswith("er")              base form: .endswith("sub-string")
+returns True if the sub-string ends with given string / char    (searches the end of string) coder == true (has the "er")
+
+str.capitalize()                base form: .capitalize() 
+capitalizes the first letter of the string
+
+str.replace(old, new)           base form: .replace(old, new)
+replaces given string / char if exists with the new one
+
+str.find(word)                  base form: .find(word/char) 
+returns the first index (if the string / char) is found             (return -1 if not found the string / char)
+
+str.count("am")                 base form: .count("counts the occurence of given string / char)
+counts how many times the given string / char occured in the given string
