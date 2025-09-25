@@ -103,3 +103,27 @@ returns the first index (if the string / char) is found             (return -1 i
 
 str.count("am")                 base form: .count("counts the occurence of given string / char)
 counts how many times the given string / char occured in the given string
+
+
+
+
+
+lists and tuples
+x = [4, true, "hi"]         filled list
+y = []                      empty list
+len() for getting the length append can add elements in the list 
+x.append("helo")                            this will add another element at the end of the x's list
+x.extend([4, 5, 6, 6, 8])                   this will ad multiple elements
+x.pop()                                     remove the last element in the list
+x.pop([0])                                  index will remove the specific index 
+
+these were lists these are mutable and can be changed
+[] = lists
+() = tuples
+
+tuples are immutable 
+here are tuples they use ()
+x = ("these", "will not use use any kind of append(), extent(), or pop(), since they cannot be changed)
+y = (2, 5, 6, 7, 0)
+
+using for loop and stuff like these
